@@ -59,13 +59,10 @@ class Saxon(Soldier):
 
 class War():
     def __init__(self):
-        # your code here
         self.vikingArmy = [] 
         self.saxonArmy = []
-        
-        
+
     def addViking(self, viking):
-        # your code here
         self.viking = viking
         self.vikingArmy.append(viking)
         
@@ -106,9 +103,7 @@ class War():
             self.vikingArmy.remove(self.viking)
             
         return final_viking_health
-        
 
-    
     def showStatus(self):
         if len(self.saxonArmy) == 0:
             return "Vikings have won the war of the century!"
